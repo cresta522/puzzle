@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', 'PuzzleController@dashboard');
+
+Route::get('/numpre', 'NumpreController@index');
+Route::get('/numpre/list', 'NumpreController@items');
+Route::get('/numpre/create', 'NumpreController@create');
+
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
