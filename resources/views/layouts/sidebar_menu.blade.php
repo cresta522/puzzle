@@ -3,7 +3,7 @@
         
         <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-                <a href="/dashboard" class="site_title"><i class="fa fa-book fa-lg"></i> <span>{{ env('APP_NAME') }}</span></a>
+                <a href="/" class="site_title"><i class="fa fa-book fa-lg"></i> <span>{{ env('APP_NAME') }}</span></a>
             </div>
             <div class="clearfix"></div>
 

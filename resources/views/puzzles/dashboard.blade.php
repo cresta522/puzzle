@@ -1,7 +1,6 @@
 @extends('layouts.template')
 
 @section('title', 'Dashboard')
-
         
 @section('content')
 <div class="">

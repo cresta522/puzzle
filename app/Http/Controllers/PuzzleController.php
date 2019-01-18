@@ -19,4 +19,9 @@ class PuzzleController extends Controller
         ] ;
 
     }
+
+    public function dashboard()
+    {
+        return view('puzzles.dashboard');
+    }
 }
