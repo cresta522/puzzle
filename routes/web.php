@@ -17,6 +17,13 @@ Route::get('/numpre', 'NumpreController@index');
 Route::get('/numpre/list', 'NumpreController@items');
 Route::get('/numpre/create', 'NumpreController@create');
 
+// ログインURL
+Route::get('/auth/twitter', 'Auth\TwitterController@redirectToProvider');
+// コールバックURL
+Route::get('/auth/twitter/callback', 'Auth\TwitterController@handleProviderCallback');
+// ログアウトURL
+Route::get('/auth/twitter/logout', 'Auth\TwitterController@logout');
+
 /*Route::get('/', function () {
     return view('welcome');
 });*/
